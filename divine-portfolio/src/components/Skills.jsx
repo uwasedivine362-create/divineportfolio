@@ -21,8 +21,9 @@ function Skills() {
             <motion.div
               className="progress"
               initial={{ width: 0 }}
-              animate={{ width: `${skill.level}%` }}
-              transition={{ duration: 1 }}
+              whileInView={{ width: `${skill.level}%` }}
+              viewport={{ once: true }}
+              transition={{ duration: 1, delay: index * 0.1 }}
             />
           </div>
         </div>

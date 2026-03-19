@@ -2,7 +2,7 @@ function Experience() {
   return (
     <section id="experience">
       <h2>Work Experience</h2>
-      <h3>Accountant & IT Support</h3>
+      <h3>Accountant &amp; IT Support</h3>
       <p>Global Construction Network Company</p>
       <ul>
         <li>Accounts payable and receivable</li>
